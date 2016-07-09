@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context="com.example.arturo.menuoption.DisplayMenu"
+    android:background="#fb8820">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="351dp"
+                android:id="@+id/massimo"
+                android:src="@drawable/logodamassimo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Pastas"
+                android:id="@+id/pastasText"
+                android:textSize="30dp"
+                android:textColor="#8d2109"
+                android:typeface="serif" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="351dp"
+                android:id="@+id/pizza"
+                android:src="@drawable/pizzapng" />
+
+            <Button
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:text="Add"
+                android:id="@+id/button1"
+                android:layout_gravity="right" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="351dp"
+                android:id="@+id/allavodka"
+                android:src="@drawable/allavodka" />
+
+            <Button
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:text="Add"
+                android:id="@+id/button2"
+                android:layout_gravity="right" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Order account"
+                android:id="@+id/button3"
+                android:layout_gravity="right" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Order account"
+                android:id="@+id/button4"
+                android:layout_gravity="right" />
+
+
+
+        </LinearLayout>
+
+
+
+        </ScrollView>
+
+
+
+
+</RelativeLayout>
